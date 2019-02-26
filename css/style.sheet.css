@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* mean reset */
+}
+
+body {
+    background-color:#f4f4f4;
+    color:#555555;
+    font-family: 16px normal Arial, Helvetica, sans-serif;
+    /* font-size:16px;
+    font-weight: normal; */
+    
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #01ff2f;
+}
+a:active {
+    color:greenyellow;
+}
+a:visited {
+    color:plum;
+}
+
+.box-1 {
+
+    background:yellowgreen;
+    color:#fff;
+
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+    border-bottom-width: 10px;
+    border-top-style:dotted;
+    padding: 30px;
+
+    /* padding-top:20px;
+    padding-left:20px; */
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.container {
+    width: 80%;
+    /* 무조건 %로 해야 반응형 화면을 만들 수 있다 */
+    margin: auto;
+    /* 중앙으로 배치 */
+}
+
+.box-1 h1 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2 {
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories {
+    border:1px #ccc solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding:0;
+    list-style: square;
+    list-style: none;
+}
