@@ -25,9 +25,9 @@ a:hover {
 a:active {
     color:greenyellow;
 }
-a:visited {
+/* a:visited {
     color:plum;
-}
+} */
 
 .box-1 {
 
@@ -53,6 +53,20 @@ a:visited {
     /* 무조건 %로 해야 반응형 화면을 만들 수 있다 */
     margin: auto;
     /* 중앙으로 배치 */
+}
+
+.button {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 20px;
+}
+
+.button:hover { 
+    background: red;
+    color: #fff;
+
 }
 
 .box-1 h1 {
@@ -86,3 +100,63 @@ a:visited {
     list-style: square;
     list-style: none;
 }
+
+.categories li {
+    padding-bottom: 6px;
+    border-bottom:dotted 1px #333;
+    /* list-style-image: url(../img/check.png); */
+}
+
+.my-form {
+    padding: 20px;
+
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding:10px;
+    box-sizing:border-box;
+    /* really nice one */
+
+}
+
+.clr {
+    clear:both;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background:#333;
+    color:white;
+    padding:15px;
+    box-sizing: :border-box;
+}
+
