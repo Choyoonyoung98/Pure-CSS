@@ -57,3 +57,24 @@ p {
   <li>Initial</li>
   <li>Inherit</li>
 </ul>
+
+<hr>
+
+<h2>What is FlexBox</h2>
+: A CSS3 layout mode that provides an easy and clean way to arrange items within a container
+<ul>
+  <li>No float</li>
+  <li>responsive and mobile friendly</li>
+  <li>Positioning child elements is Much easier </li>
+  <li>Flex container's margins do not collapse with the margins if its contents</li>
+  <li>Order of elements can easily be changed without editing the source HTML</li>
+</ul>
+
+<hr>
+
+<h2>Flexible box model concept</h2>
+<ul>
+  <li>The ability to alter item width and height to best width and height to best fit in its containers available free space</li>
+  <li>Flexbox is direction-agnostic</li>
+  <li>Built for small-scale layout while the upcoming "Grid" specification is for more large scale</li>
+</ul>
