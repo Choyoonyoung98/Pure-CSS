@@ -45,3 +45,15 @@ p {
     color: rgb(0,0,255);
 }
 </pre></code>
+
+<hr>
+
+<h2>Positioning in CSS</h2>
+<ul>
+  <li>Static</li>
+  <li>Relative</li>
+  <li>Absolute</li>
+  <li>Fixed</li>
+  <li>Initial</li>
+  <li>Inherit</li>
+</ul>
