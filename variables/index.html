@@ -26,5 +26,16 @@
         </div>
     </div>
   </div>
+
+  <script>
+    const box = document.querySelector('.box');
+    const boxStyles = getComputedStyle(box);
+    const boxMainColor = boxStyles.getPropertyValue('--box-main-color');
+
+    const header = document.querySelector('#main-header');
+    console.log(header);
+    header.style.setProperty('--header-bg-color', boxMainColor);
+  </script>
 </body>
+
 </html>
