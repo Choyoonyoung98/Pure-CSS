@@ -33,18 +33,18 @@ body {
 </pre></code>
 
 -HTML5 Color Names
-<code><pre>
+```
 h1 {
     color: #f4f4f4;
 }
-</pre></code>
+```
 
 -RGB
-<code><pre>
+```
 p {
     color: rgb(0,0,255);
 }
-</pre></code>
+```
 
 <hr>
 
