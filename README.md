@@ -25,12 +25,12 @@
 
 <h2>Colors In CSS</h2>
 -Color Names
-```
+<pre><code>
 body {
     color:red;
     background:coral;
 }
-```
+</code></pre>
 
 -HTML5 Color Names
 ```
